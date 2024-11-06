@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: #838bed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+}
+
+#drumset-container {
+  position: relative;
+}
+
+/* 6B77E5 */
+.drum-pad {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: rgba(107, 119, 229, 0.3);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.drum-pad:hover {
+  background: rgba(107, 119, 229, 0.6);
+}
