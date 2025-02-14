@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  height: 100vh;
 }
 
 #drumset-container {
@@ -21,7 +21,7 @@ body {
   position: absolute;
   height: 100px;
   width: 100px;
-  background: rgba(107, 119, 229, 0.3);
+  background: rgba(0, 26, 255, 0.3);
   color: white;
   display: flex;
   justify-content: center;
